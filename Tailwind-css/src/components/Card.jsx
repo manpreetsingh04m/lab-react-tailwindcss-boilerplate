@@ -1,0 +1,24 @@
+import React from "react";
+
+const Card = () => {
+  return (
+    <div className="p-6 max-w-md mx-auto rounded-xl shadow-xl flex items-center space-x-10 border">
+      {/* Logo */}
+      <div>
+        <img
+          className="h-9"
+          src="https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/Kalvium-Logo.png"
+          alt="Kalvium-logo"
+        />
+      </div>
+
+      {/* Content */}
+      <div>
+        <h1 className="text-2xl font-medium text-black">Kalvium Store</h1>
+        <p className="text-slate-420">You have a new Course!</p>
+      </div>
+    </div>
+  );
+};
+
+export default Card;
